@@ -15,8 +15,6 @@ app.use('/users', routes)
 app.get('/', (req, res) => {
     res.send('Hello world');
 });
- 
-})
 
 app.listen(port, () => {
     console.log(`Servidor rodando em http://localhost:${port}`);
