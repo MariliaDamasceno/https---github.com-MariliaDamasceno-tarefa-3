@@ -1,5 +1,5 @@
 const userService = require("../service/user.service");
-const authService = require("../service/auth.service"); // Adicionei a importação do serviço de autenticação
+const authService = require("../service/auth.service"); // importação do serviço de autenticação
 const jwt = require("jsonwebtoken");
 
 const segredo = "umasupersenha123"
